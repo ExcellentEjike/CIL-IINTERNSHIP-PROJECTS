@@ -11,4 +11,6 @@ display(im)
 resized_im = im.resize((round(im.size[0]*0.5), round(im.size[1]*0.5)))
 print("Resized Image")
 display(resized_im)
-resized_im.save('resized.jpg')
+resized_im.save('resized.jpg') 
+
+
